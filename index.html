@@ -4,78 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
     <title>Web Site</title>
     <style>
-        .col-4, .col-8{
+        .col-4,.col-8 {
             height: 1200px;
             padding: 0;
-            
         }
-        .col-4{
+        .col-4 {
             background: #101f32;
-        }        
+        }
+        .col-8 {
+            background: #e3e3e5
+        }
+        .avatar img {
+            border-radius: 50%;
+        }
+        i {
+            border: 14px solid grey;
+            border-radius: 50%;
+        }
+        h5 {
+        }
+        hr{
+
+            position: absolute;
+            width: 60%;
+            background-color: white;     
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="row">
-
             <!--LEFT-SIDE-->
             <div class="col-4 text-white">
-                <div class="avatar text-center">
+                <div class="avatar text-center mt-4">
                     <img src="http://i.pravatar.cc/150?img=12" alt="avatar">
                     <h2 class="text-white mt-2">AHMET ÖZÇELİK</h2>
                     <span class="text-white">Yazılımcı</span>
                 </div>
-                <div class="profile text-white">
-                    <i class="far fa-file-alt"></i>
-                    <h5 class="d-inline">PROFILE</h5>
-                    <p class="small"><strong>Lorem ipsum dolor</strong> sit, amet consectetur adipisicing elit. Explicabo perferendis non quibusdam omnis asperiores deserunt molestiae doloribus sit tempore quis eaque dolorem ex dignissimos earum nobis, deleniti rerum maiores quo.</p>
-                </div>
-                <div class="contact">
+                <div class="ml-4">
+                    <div class="profile text-white">
+                        <i class="far fa-file-alt"></i>
+                        <h5 class="d-inline">PROFILE</h5>
+                        <hr class="d-inline pt-1 ml-2"/>
+                        <p class="small"><strong>Lorem ipsum dolor</strong> sit, amet consectetur adipisicing elit.
+                            Explicabo perferendis non quibusdam omnis asperiores deserunt molestiae doloribus sit
+                            tempore quis eaque dolorem ex dignissimos earum nobis, deleniti rerum maiores quo.</p>
+                    </div>
+                    <div class="contact text-white">
                         <i class="fas fa-user-alt"></i>
                         <h5 class="d-inline">CONTACT ME</h5>
-                        <div class="list-unstyled">
-                           <ul>
-                               <li>+000 000 0000</li>
-                               <li>johndoe@website.com</li>
-                               <li>www.website.com</li>
-                               <li>192 William Street PD Box Chicago, USA</li>
-                           </ul>
+                        <hr class="d-inline pt-1 ml-2"/>
+                        <div class="pl-3">
+                            <ul class="list-unstyled">                                
+                                <li><i class="fas fa-phone"></i>+000 000 0000</li>
+                                <li><i class="fas fa-envelope"></i>johndoe@website.com</li>
+                                <li><i class="fas fa-globe-americas"></i>www.website.com</li>
+                                <li><i class="fas fa-map-marker-alt"></i>192 William Street PD Box Chicago, USA</li>
+                            </ul>
                         </div>
-
-                </div>
-                <div class="personalSkills">
+                    </div>
+                    <div class="personalSkills">
                         <i class="fas fa-chart-pie"></i>
                         <h5 class="d-inline">PERSONAL SKILLS</h5>
+                        <hr class="d-inline pt-1 ml-2"/>
                         <ul>
-                            <li>INNOVATE</li>
+                            <li>INNOVATE<div class="progress ml-4 w-50 d-inline-block">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                                  </div></li>
                             <li>CREATIVE</li>
                             <li>TEAM WORK</li>
                             <li>HOBBIES</li>
                         </ul>
-                </div>
-                <div class="connect">
+                    </div>
+                    <div class="connect">
                         <i class="fas fa-user-friends"></i>
                         <h5 class="d-inline">CONNECT</h5>
+                        <hr class="d-inline pt-1 ml-2"/>
                         <ul>
                             <li>linkedin.com/username</li>
                             <li>twitter.com/username</li>
                             <li>behance.com/username</li>
                             <li>dribbble.com/username</li>
                         </ul>
+                    </div>
                 </div>
-                
             </div>
-
             <!--CONTENT-->
-
             <div class="col-8 bg-light">
                 <div class="experience">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro adipisci deleniti dolore eos itaque inventore facere culpa nobis ipsam molestias!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro adipisci deleniti dolore eos
+                        itaque inventore facere culpa nobis ipsam molestias!</p>
                 </div>
                 <div class="proSkills">
                     <ul>
@@ -88,7 +112,8 @@
                     </ul>
                 </div>
                 <div class="education">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore numquam praesentium tempore dicta beatae perspiciatis dolorum officiis harum voluptatem exercitationem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore numquam praesentium tempore
+                        dicta beatae perspiciatis dolorum officiis harum voluptatem exercitationem.</p>
                 </div>
                 <div class="proficiency">
                     <ul>
@@ -102,29 +127,16 @@
                         <li>WORDPRESS</li>
                     </ul>
                 </div>
-                
-
-
             </div>
         </div>
-
-
-
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
