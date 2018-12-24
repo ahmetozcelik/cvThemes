@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,33 +11,37 @@
         crossorigin="anonymous">
     <title>Web Site</title>
     <style>
-        .col-4,.col-8 {
-            height: 1200px;
+        .col-4,
+        .col-8 {
+            height: auto;
             padding: 0;
         }
+
         .col-4 {
             background: #101f32;
         }
+
         .col-8 {
             background: #e3e3e5
         }
+
         .avatar img {
             border-radius: 50%;
         }
+
         i {
             border: 14px solid grey;
             border-radius: 50%;
         }
-        h5 {
-        }
-        hr{
 
+        hr {
             position: absolute;
             width: 60%;
-            background-color: white;     
+            background-color: white;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="row">
@@ -51,7 +56,7 @@
                     <div class="profile text-white">
                         <i class="far fa-file-alt"></i>
                         <h5 class="d-inline">PROFILE</h5>
-                        <hr class="d-inline pt-1 ml-2"/>
+                        <hr class="d-inline pt-1 ml-2" />
                         <p class="small"><strong>Lorem ipsum dolor</strong> sit, amet consectetur adipisicing elit.
                             Explicabo perferendis non quibusdam omnis asperiores deserunt molestiae doloribus sit
                             tempore quis eaque dolorem ex dignissimos earum nobis, deleniti rerum maiores quo.</p>
@@ -59,9 +64,9 @@
                     <div class="contact text-white">
                         <i class="fas fa-user-alt"></i>
                         <h5 class="d-inline">CONTACT ME</h5>
-                        <hr class="d-inline pt-1 ml-2"/>
+                        <hr class="d-inline pt-1 ml-2" />
                         <div class="pl-3">
-                            <ul class="list-unstyled">                                
+                            <ul class="list-unstyled">
                                 <li><i class="fas fa-phone"></i>+000 000 0000</li>
                                 <li><i class="fas fa-envelope"></i>johndoe@website.com</li>
                                 <li><i class="fas fa-globe-americas"></i>www.website.com</li>
@@ -72,38 +77,85 @@
                     <div class="personalSkills">
                         <i class="fas fa-chart-pie"></i>
                         <h5 class="d-inline">PERSONAL SKILLS</h5>
-                        <hr class="d-inline pt-1 ml-2"/>
+                        <hr class="d-inline pt-1 ml-2" />
                         <ul>
-                            <li>INNOVATE<div class="progress ml-4 w-50 d-inline-block">
-                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                                  </div></li>
-                            <li>CREATIVE</li>
-                            <li>TEAM WORK</li>
-                            <li>HOBBIES</li>
+                            <li>INNOVATE<div class="progress ml-5 w-50 d-inline-block">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100">25%</div>
+                                </div>
+                            </li>
+                            <li>CREATIVE<div class="progress ml-5 w-50 d-inline-block">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100">25%</div>
+                                </div>
+                            </li>
+                            <li>TEAM WORK
+                                <div class="progress ml-4 w-50 d-inline-block">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100">25%</div>
+                                </div>
+                            </li>
+                            <li>HOBBIES
+                                <div class="progress ml-5 w-50 d-inline-block">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100">25%</div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     <div class="connect">
                         <i class="fas fa-user-friends"></i>
                         <h5 class="d-inline">CONNECT</h5>
-                        <hr class="d-inline pt-1 ml-2"/>
-                        <ul>
-                            <li>linkedin.com/username</li>
-                            <li>twitter.com/username</li>
-                            <li>behance.com/username</li>
-                            <li>dribbble.com/username</li>
-                        </ul>
+                        <hr class="d-inline pt-1 ml-2" />
+                        <div class="pl-4">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="badge badge-primary">linkedin.com/username</a></li>
+                                <li><a href="#" class="badge badge-primary">twitter.com/username</a></li>
+                                <li><a href="#" class="badge badge-primary">behance.com/username</a></li>
+                                <li><a href="#" class="badge badge-primary">dribbble.com/username</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
             <!--CONTENT-->
             <div class="col-8 bg-light">
-                <div class="experience">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro adipisci deleniti dolore eos
-                        itaque inventore facere culpa nobis ipsam molestias!</p>
-                </div>
-                <div class="proSkills">
+                <!--WorkExperince-->
+                <div class="mt-2 experience">
+                    <i class="fas fa-briefcase"></i><span class="font-weight-bold">WORK EXPERINCE</span>
+                    <hr class="d-inline mt-4 ml-2 bg-dark" style="width: 75%" />
                     <ul>
-                        <li>NETWORKING</li>
+                        <li>
+                            <p><strong>ART DIRECTOR</strong> / COMPANY IN LOS ANGELES, 2015</p>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ipsam ut quo amet
+                                sequi quos? Culpa soluta vero a. Quibusdam itaque esse delectus nesciunt eius.</span>
+                        </li>
+                        <li>
+                            <p><strong>WEB DESIGNER</strong> / COMPANY IN PARIS, 2013</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, vel quas sint nobis
+                                incidunt inventore nemo aperiam nisi.</span>
+                        </li>
+                        <li>
+                            <p><strong>FREELANCER</strong> / 2012-CURRENT</p>
+                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem sed ut alias vero
+                                veritatis, reprehenderit praesentium eum ullam nobis atque laudantium reiciendis in
+                                placeat corrupti voluptas, nisi natus excepturi quo.</span>
+                        </li>
+                        <li>
+                            <p><strong>JUNIOR ART DIRECTOR</strong> / COMPANY IN LOS ANGELES, 2010</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, consequuntur!</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--ProfessionalSkills-->
+                <div class="proSkills">
+                    <i class="fas fa-chart-pie"></i><span class="font-weight-bold">PROFICIENCY</span>
+                    <hr class="d-inline mt-4 ml-2 bg-dark" style="width: 80%" />
+                    <ul>
+                        <li>NETWORKING<div class="progress ml-2" style="width:25%">
+                                <div class="progress-bar bg-dark w-75"></div>
+                            </div>
+                        </li>
                         <li>WEB PROGRAMMER</li>
                         <li>BRANDING</li>
                         <li>GRAPHIC DESIGN</li>
@@ -111,32 +163,65 @@
                         <li>SEO</li>
                     </ul>
                 </div>
+                <!--Education-->
                 <div class="education">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore numquam praesentium tempore
-                        dicta beatae perspiciatis dolorum officiis harum voluptatem exercitationem.</p>
-                </div>
-                <div class="proficiency">
+                    <i class="far fa-edit"></i><span class="font-weight-bold">EDUCATION</span>
+                    <hr class="d-inline mt-4 ml-2 bg-dark" style="width: 81%" />
                     <ul>
-                        <li>HTML</li>
-                        <li>JAVASCRIPT</li>
-                        <li>INDESIGN</li>
-                        <li>DREAMWEAVER</li>
-                        <li>CSS</li>
-                        <li>PHOTOSHOP</li>
-                        <li>ILLUSTRATOR</li>
-                        <li>WORDPRESS</li>
+                        <li>
+                            <p><strong>MASTER DEGREE</strong> / 2007-2011</p>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ipsam ut quo amet
+                                sequi quos? Culpa soluta vero a. Quibusdam itaque esse delectus nesciunt eius.</span>
+                        </li>
+                        <li>
+                            <p><strong>BACHELOR DEGREE</strong> / 2004-2007</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, vel quas sint nobis
+                                incidunt inventore nemo aperiam nisi.</span>
+                        </li>
+                        <li>
+                            <p><strong>COURSE</strong> / JAN 2012 - MAY 2012</p>
+                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem sed ut alias vero
+                                veritatis, reprehenderit praesentium eum ullam nobis atque laudantium reiciendis in
+                                placeat corrupti voluptas, nisi natus excepturi quo.</span>
+                        </li>
+                        <li>
+                            <p><strong>COURSE</strong> / JAN 2013 - MAY 2013</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, consequuntur!</span>
+                        </li>
                     </ul>
+                    <div class="proficiency">
+                        <i class="far fa-lightbulb"></i><span class="font-weight-bold">PROFICIENCY</span>
+                        <hr class="d-inline mt-4 ml-2 bg-dark" style="width: 80%" />
+                        <div class="row">
+                        <ul>
+                            
+                                <div class="col-6">
+                                <li>HTML</li>
+                                <li>JAVASCRIPT</li>
+                                <li>INDESIGN</li>
+                                <li>DREAMWEAVER</li>
+                            </div>
+                            
+                            <div class="col-6 float-right"></div>
+                            <li>CSS</li>
+                            <li>PHOTOSHOP</li>
+                            <li>ILLUSTRATOR</li>
+                            <li>WORDPRESS</li>
+                        </div>
+                    
+                        </ul>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
