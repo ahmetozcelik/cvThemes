@@ -3,43 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css" >
+        <link rel="icon" href="favicon.ico">
     <title>Web Site</title>
-    <style>
-        .col-4,
-        .col-8 {
-            height: auto;
-            padding: 0;
-        }
-
-        .col-4 {
-            background: #101f32;
-        }
-
-        .col-8 {
-            background: #e3e3e5
-        }
-
-        .avatar img {
-            border-radius: 50%;
-        }
-
-        i {
-            border: 14px solid grey;
-            border-radius: 50%;
-        }
-
-        hr {
-            position: absolute;
-            width: 60%;
-            background-color: white;
-        }
-    </style>
 </head>
 
 <body>
@@ -48,7 +20,7 @@
             <!--LEFT-SIDE-->
             <div class="col-4 text-white">
                 <div class="avatar text-center mt-4">
-                    <img src="http://i.pravatar.cc/150?img=12" alt="avatar">
+                    <img src="http://i.pravatar.cc/150?img=12" alt="avatar" class="border border-white rounded-circle">
                     <h2 class="text-white mt-2">AHMET ÖZÇELİK</h2>
                     <span class="text-white">Yazılımcı</span>
                 </div>
@@ -120,8 +92,8 @@
             </div>
             <!--CONTENT-->
             <div class="col-8 bg-light">
-                <!--WorkExperince-->
-                <div class="mt-2 experience">
+                <!--WORKEXPERIENCE-->
+                <div class="experience">
                     <i class="fas fa-briefcase"></i><span class="font-weight-bold">WORK EXPERINCE</span>
                     <hr class="d-inline mt-4 ml-2 bg-dark" style="width: 75%" />
                     <ul>
@@ -147,23 +119,29 @@
                         </li>
                     </ul>
                 </div>
-                <!--ProfessionalSkills-->
+                <!--PROFESSIONALSKILLS-->
                 <div class="proSkills">
-                    <i class="fas fa-chart-pie"></i><span class="font-weight-bold">PROFICIENCY</span>
-                    <hr class="d-inline mt-4 ml-2 bg-dark" style="width: 80%" />
-                    <ul>
-                        <li>NETWORKING<div class="progress ml-2" style="width:25%">
-                                <div class="progress-bar bg-dark w-75"></div>
-                            </div>
-                        </li>
-                        <li>WEB PROGRAMMER</li>
-                        <li>BRANDING</li>
-                        <li>GRAPHIC DESIGN</li>
-                        <li>INTERFACE DESIGN</li>
-                        <li>SEO</li>
-                    </ul>
+                    <i class="fas fa-chart-pie"></i><span class="font-weight-bold">PROFESSIONAL SKILLS</span>
+                    <hr class="d-inline bg-dark" style="width: 80%" />
+                    <div class="row">
+                        <div class="col-6">
+                            <ul>
+                                <li>NETWORKING</li>
+                                <li>WEB PROGRAMMER</li>
+                                <li>BRANDING</li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul>
+                                <li>GRAPHIC DESIGN</li>
+                                <li>INTERFACE DESIGN</li>
+                                <li>SEO</li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
-                <!--Education-->
+                <!--EDUCATION-->
                 <div class="education">
                     <i class="far fa-edit"></i><span class="font-weight-bold">EDUCATION</span>
                     <hr class="d-inline mt-4 ml-2 bg-dark" style="width: 81%" />
@@ -189,39 +167,41 @@
                             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, consequuntur!</span>
                         </li>
                     </ul>
-                    <div class="proficiency">
-                        <i class="far fa-lightbulb"></i><span class="font-weight-bold">PROFICIENCY</span>
-                        <hr class="d-inline mt-4 ml-2 bg-dark" style="width: 80%" />
-                        <div class="row">
-                        <ul>
-                            
-                                <div class="col-6">
-                                <li>HTML</li>
+                </div>
+                <!--PROFICIENCY-->
+                <div class="proficiency">
+                    <i class="far fa-lightbulb"></i><span class="font-weight-bold">PROFICIENCY</span>
+                    <hr class="d-inline mt-4 ml-2 bg-dark" style="width: 80%" />
+                    <div class="row">
+                        <div class="col-6">
+                            <ul>
+                                <li>HTML<progress></progress></li>
                                 <li>JAVASCRIPT</li>
                                 <li>INDESIGN</li>
                                 <li>DREAMWEAVER</li>
-                            </div>
-                            
-                            <div class="col-6 float-right"></div>
-                            <li>CSS</li>
-                            <li>PHOTOSHOP</li>
-                            <li>ILLUSTRATOR</li>
-                            <li>WORDPRESS</li>
+                            </ul>
                         </div>
-                    
-                        </ul>
-                    </div>
+
+                        <div class="col-6">
+                            <ul>
+                                <li>CSS</li>
+                                <li>PHOTOSHOP</li>
+                                <li>ILLUSTRATOR</li>
+                                <li>WORDPRESS</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

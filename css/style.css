@@ -1,0 +1,23 @@
+body {
+    height: 1400px;
+    padding: 0;
+}
+
+.col-4 {
+    background: #101f32;
+}
+
+.col-8 {
+    background: #e3e3e5
+}
+
+i {
+    border: 14px solid grey;
+    border-radius: 50%;
+}
+
+hr {
+    position: absolute;
+    width: 60%;
+    background-color: white;
+}
