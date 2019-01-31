@@ -15,9 +15,10 @@ i {
     border: 14px solid grey;
     border-radius: 50%;
 }
-
-hr {
-    position: absolute;
-    width: 60%;
-    background-color: white;
+span{
+    width: 120px;
+}
+.el-progress, .topic{
+    display: flex;
+    align-items: center;
 }
