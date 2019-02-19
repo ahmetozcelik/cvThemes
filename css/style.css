@@ -16,9 +16,13 @@ i {
     border-radius: 50%;
 }
 span{
-    width: 120px;
+    width: 150px;
 }
 .el-progress, .topic{
     display: flex;
     align-items: center;
+}
+img{
+    width: 35px;
+    height: 35px;
 }
